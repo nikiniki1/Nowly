@@ -1,0 +1,34 @@
+.worktrees/
+.superpowers/
+.docs/
+.agents/
+
+AGENTS.md
+
+skills-lock.json
+
+# Xcode personal state
+xcuserdata/
+*.xcuserstate
+
+# Build artifacts
+DerivedData/
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+Secrets.xcconfig
+Config.xcconfig
+
+# Signing files
+*.p12
+*.mobileprovision
+*.cer
+
+# macOS
+.DS_Store
